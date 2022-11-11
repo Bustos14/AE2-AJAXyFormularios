@@ -1,0 +1,26 @@
+{
+   "PIZZAS":{
+      "TAMANIOS":[
+         {
+            "NOMBRE":"PEQUEÑA",
+            "DIMENSIONES":30,
+            "PVP":5
+         },
+         {
+            "NOMBRE":"MEDIANA",
+            "DIMENSIONES":35,
+            "PVP":10
+         },
+         {
+            "NOMBRE":"GRANDE",
+            "DIMENSIONES":40,
+            "PVP":15
+         },
+         {
+            "NOMBRE":"EXTRA GRANDE",
+            "DIMENSIONES":50,
+            "PVP":20
+         }
+      ]
+   }
+}

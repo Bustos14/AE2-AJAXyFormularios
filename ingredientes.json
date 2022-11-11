@@ -1,0 +1,38 @@
+{
+   "CATALOGO":{
+      "INGREDIENTES":[
+         {
+            "NOMBRE":"PEPERONI",
+            "PVP":2
+         },
+         {
+            "NOMBRE":"ATÚN",
+            "PVP":1.50
+         },
+         {
+            "NOMBRE":"POLLO",
+            "PVP":2
+         },
+         {
+            "NOMBRE":"EXTRA DE QUESO",
+            "PVP":1
+         },
+         {
+            "NOMBRE":"SALSA BARBACOA",
+            "PVP":0.50
+         },
+         {
+            "NOMBRE":"PIMIENTO",
+            "PVP":1
+         },
+         {
+            "NOMBRE":"JAMON",
+            "PVP":0.60
+         },
+         {
+            "NOMBRE":"4 QUESOS",
+            "PVP":2.50
+         }
+      ]
+   }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="scripts/scripts.js"></script>
+    <title>AJAX y Formularios. </title>
+</head>
+
+<body>
+    <div class="w-33">
+    <form class="formulario" id="form">
+        <legend>¿Cómo quieres la pizza hoy?</legend>
+        <div class="contenedor-campos">
+        <!-- Cajas de texto -->
+
+                    <!-- Nombre-->
+        <div class="campo">
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre" >
+            <p class="warning" name="parrafoAlert" id="parrafoAlert"></p>
+        </div>
+        
+                    <!-- Telefono -->
+        <div class="campo">
+            <label for="telefono">Telefono: </label>
+            <input type="text" name="telefono" id="telefono" >
+            <p class="warning" name="parrafoAlert" id="parrafoAlert"></p>
+        </div>
+
+                     <!-- Direccion -->
+        <div class="campo largo">
+            <label for="direccion">Direccion: </label>
+            <input type="text" name="direccion" id="direccion" >
+            <p class="warning" name="parrafoAlert" id="parrafoAlert"></p>
+        </div>
+
+                    <!-- Email -->
+        <div class="campo largo">
+            <label for="email">Email: </label>
+            <input type="text" name="email" id="email" >
+            <p class="warning" name="parrafoAlert" id="parrafoAlert"></p>
+        </div>
+
+
+        <h3 class="tittle-second">Elija el tamaño de su pizza</h3>
+        
+        <!-- Radio buttons -->
+        <div class="campo campo-pizza" id = "dimensionesContent">
+        </div>
+
+        <h3 class="tittle-second">Elija los ingredientes de tu pizza</h3>
+
+        <!-- Checkbox -->
+        <div class="campo campo-ingrediente" id = "ingredientesContent">
+        
+        </div>
+    </form>
+        <table>
+            <tr>
+                <td><button  id="btnEnviar" class="boton">Procesar pedido</button></td>
+                <td></td><button id="btnReset" class="boton">Refrescar</button>
+            </tr>
+        </table>
+                  
+        <p class="warning" id="warning"></p>
+        <div>
+            <p class="total" id="total"></p>
+        </div>
+    </div>       
+</body>
+</html>
